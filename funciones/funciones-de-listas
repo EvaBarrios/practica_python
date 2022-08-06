@@ -1,0 +1,44 @@
+# Funciones de lista Python tiene un montón de útiles funciones integradas para listas. 
+
+#len() le permite obtener la cantidad de elementos en una lista. Ejemplo a continuación:
+from ctypes.wintypes import HLOCAL
+
+
+nums=[1, 2, 3, 4, 5, 6]
+print(len(nums)) #A diferencia de la indexación de elementos, len no comienza con 0
+
+# También puede usar len en cadenas para devolver su longitud (recuento de caracteres), ejemplo:
+str=input()
+print(len(str))
+
+# La función append() se usa para agregar un elemento al final de la lista:
+nums=[1, 2, 3]
+nums.append(4) # la función se llama utilizando el nombre de la lista, seguido de un punto.
+print(nums)
+
+# insert() inserta un nuevo elemento en la posición dada en la lista, ejemplo:
+words=['Python', 'fun']
+words.insert(1, 'is') # el primer argumento es el índice de posición, el segundo parámetro es el elemento a insertar en esa posición.
+print(words)
+
+# index() encuentra la primera aparición de un elemento de la lista y devuelve su índice.
+letras=['p', 'q', 'r', 's', 'p', 's']
+print(letras.index('p'))
+print(letras.index('s'))
+
+# max(lista): Devuelve el valor máximo. min(lista): Devuelve el valor mínimo
+nums=[245, 3000, -60, -325, 111, 245]
+print(nums)
+print(max(nums))
+print(min(nums))
+
+# list.count(item): Devuelve un recuento de cuántas veces aparece un elemento en una lista:
+print(nums.count(245))
+
+# list.remove(item): Elimina un elemento de una lista.
+nums.remove(-60)
+print(nums)
+
+# list.reverse(): Invierte los elementos de una lista.
+nums.reverse()
+print(nums)

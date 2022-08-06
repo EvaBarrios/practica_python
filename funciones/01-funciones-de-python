@@ -1,0 +1,13 @@
+#Una función es un grupo de instrucciones relacionadas que realizan una tarea específica. 
+#Las funciones ayudan a dividir nuestro programa en partes más pequeñas y modulares. 
+#A medida que nuestro programa crece más y más, las funciones lo hacen más organizado y manejable.
+
+# Una función tiene un nombre y puede tener argumentos, por ejemplo:
+print("Hello") # en este caso el nombre de la función es 'print' y el argumentos"Hello"
+
+"""Algunas de las funciones integradas de python son:
+print("Hello world")
+range(2,20) en este caso podemos ver que las funciones pueden recibir más de un argumento
+str(12)"""
+
+# La función se llama usando su nombre, seguido de paréntesis, que encierran los argumentos.

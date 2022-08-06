@@ -1,2 +1,2 @@
-# practica_python
+## practica_python
  Repositorio creado para mi aprendizaje del lenguaje Python.

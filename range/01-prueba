@@ -1,0 +1,7 @@
+numbers=range(5)
+for x in numbers:
+    print(x)
+
+print("Ahora en forma de lista:")
+numbers=list(range(5))
+print(numbers)

@@ -1,0 +1,9 @@
+#str=input("ingrese cadena: ")
+#lista=list(str)
+#nuevalista=lista[::-1]
+#print(nuevalista[0])
+
+cadena=list(input("ingrese cadena "))
+cadenainversa=cadena[::-1]
+print(cadenainversa[0])
+print(cadena[1:-1])

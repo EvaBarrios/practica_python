@@ -1,0 +1,29 @@
+"""Las cadenas tienen una función de formato (), 
+que permite incrustar valores en ella, utilizando marcadores de posición."""
+nums=[4, 5, 6]
+msg='Numbers {0} {1} {2}'.format(nums[0], nums[1], nums[2])
+# Cada argumento de la función de formato se coloca en la cadena en la posición correspondiente, 
+# que se determina mediante las llaves { }.
+print(msg)
+
+print("{0}{1}{0}".format("abra","cad"))
+
+# También puede nombrar los marcadores de posición, en lugar de los números de índice.
+a="{x}, {y}".format(x=5, y=12)
+print(a)
+
+# join() une una lista de cadenas con otra cadena como separador.
+x=":".join(["pan", "queso", "leche"])
+print(x)
+
+# split() es lo contrario de join(). Convierte una cadena con un determinado separador en una lista. 
+# Por ejemplo, dividamos una oración en palabras:
+txt= "algún texto escrito aquí"
+x=txt.split(" ")
+print(x)
+# Usamos UN ESPACIO ' ' como separador de división para obtener todas las palabras de la cadena como una lista.
+
+# replace() reemplaza una subcadena en una cadena con otra.
+print(txt.replace("aquí", "here"))
+
+# lower() y upper() cambian el caso de una cadena a minúsculas y mayúsculas.

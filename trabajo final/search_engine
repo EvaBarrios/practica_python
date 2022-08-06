@@ -1,0 +1,10 @@
+text=input("Ingrese texto ")
+word=input("Ingrese palabra ")
+def search(text, word):
+    if word in text:
+        return("Palabra encontrada")
+    else:
+        return("Palabra no encontrada")
+print(search(text, word))
+
+

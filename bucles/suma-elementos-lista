@@ -1,0 +1,6 @@
+# Este código recibe una lista de números y devuelve la suma de todos los elementos de la lista
+x=[1, 2, 3, 4, 5]
+sum=0
+for num in x:
+    sum+=num
+print("la suma es: "+ str(sum))
